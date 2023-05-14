@@ -14,11 +14,13 @@ html{
 }
 */
 
+/*
 @media(max-width: 1000px){
     html{
         margin: 2% 2%;
     }
 }
+*/
 /*----------FONTS------------*/
 p{
     font-family: 'inconsolata';
@@ -274,26 +276,32 @@ nav .fa{
         margin: 0% 0%;
     }
     .tekstbox1{
-        width: 95%;
+        width: 90%;
     }
 }
 
 /* box med åbningstider */
-.åbningstider{
-    line-height: 3.25em;
-    text-align: justify;
-    text-align-last: justify;
-    margin: auto;
+
+.åbningstiderne{
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     width: 300px;
+    margin: auto;
+    line-height: 3.25em;
     padding: 20px 0px;
 }
 
-.åbningstider p{
+.åbningstiderne p{
     font-family: 'oswald';
     font-weight: 300;
     font-size: 1.75em;
 }
+
+.rightÅbning{
+    text-align: right;
+}
+
 
 @media (max-width: 450px) {
     .åbningstider{
@@ -367,6 +375,7 @@ nav .fa{
 .featuredProjects p{
     line-height: 30px;
     text-align: justify;
+    padding-bottom: 10px;
 }
 
 .projectRow{
@@ -401,7 +410,7 @@ nav .fa{
 
 @media (max-width: 1000px) {
     .featuredProjects{
-        width: 95%;
+        width: 90%;
     }
 }
 
