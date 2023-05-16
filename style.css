@@ -201,12 +201,13 @@ nav .fa{
     font-size: 40px;
     font-weight: 300;
     color: white;
-    word-spacing: normal;
+    word-spacing: 2px;
 }
 
 .tekstIndex h3{
     font-family: 'oswald';
     font-weight: 100;
+    font-size: 20px;
     word-spacing: 10px;
 }
 
